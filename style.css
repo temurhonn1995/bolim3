@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+
+  padding: 0;
+}
+.position {
+  background: lightgreen;
+  position: relative;
+  margin-bottom: 20px;
+}
+.position-img {
+  position: absolute;
+  right: 100px;
+  top: 40px;
+  /* width: 300px;
+  height: 400px; */
+  box-shadow: 30px 20px 20px red;
+}
+.position-context {
+  width: 50%;
+  /* margin-top: 60px; */
+  padding: 50px 0;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.position-heading {
+  margin-bottom: 20px;
+}
+.position-text {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+.position-link {
+  text-decoration: none;
+  background: orange;
+  padding: 3px 40px;
+  border-radius: 9px;
+  color: black;
+  transition: background 0.5s ease;
+}
+.position-link:hover {
+  color: white;
+  background: black;
+}
+.position-link:active {
+  background: rgba(0, 0, 0, 0.055);
+}
+.position-link:visited {
+  color: blue;
+}
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pictures img {
+  margin: 5px;
+}
